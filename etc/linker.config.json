@@ -1,0 +1,34 @@
+{
+	"provideLibs": [	
+		    "libdummy_binary_libopen-dice-android-baremetal.a-x86_64-v2.so",
+		    "libdummy_binary_libopen-dice-android-baremetal.a.so",
+		    "libdummy_binary_libopen-dice-android-p384.a-x86_64-v2.so",
+		    "libdummy_binary_libopen-dice-android-p384.a.so",
+		    "libdummy_binary_libopen-dice-android-x86_64-v2.so.so",
+		    "libdummy_binary_libopen-dice-android.a-x86_64-v2.so",
+		    "libdummy_binary_libopen-dice-android.a.so",
+		    "libdummy_binary_libopen-dice-android.so.so",
+		    "libdummy_binary_libopen-dice-cbor-baremetal.a-x86_64-v2.so",
+		    "libdummy_binary_libopen-dice-cbor-baremetal.a.so",
+		    "libdummy_binary_libopen-dice-cbor-p384.a-x86_64-v2.so",
+		    "libdummy_binary_libopen-dice-cbor-p384.a.so",
+		    "libdummy_binary_libopen-dice-cbor-x86_64-v2.so.so",
+		    "libdummy_binary_libopen-dice-cbor.a-x86_64-v2.so",
+		    "libdummy_binary_libopen-dice-cbor.a.so",
+		    "libdummy_binary_libopen-dice-cbor.so.so",
+		    "libdummy_ext_open_dice-x86_64-v2.so",
+		    "libdummy_ext_open_dice.so",
+		    "libdummy_headers_ext_open_dice-x86_64-v2.so",
+		    "libdummy_headers_ext_open_dice.so",
+		    "libdummy_shared_open_dice-x86_64-v2.so",
+		    "libdummy_shared_open_dice.so"
+	],
+	"requireLibs": [	
+		    "libc++_shared.so",
+		    "libc.so",
+		    "libcrypto.so",
+		    "libdl.so",
+		    "libm.so"
+	],
+	"visible": true
+}

@@ -1,0 +1,6 @@
+shadow prebuilt repo: open-dice (target)
+  upstream: external/open-dice
+  api-level: 34 (branch 34-20261016)
+  blobs: org.blisslabs.ag.ext.open.dice.apex
+  dev-src: extracted extractive payload (libopen_dice_*.a, libopen_dice_*.so, headers) + root Android.bp
+  date: 2026-10-16
