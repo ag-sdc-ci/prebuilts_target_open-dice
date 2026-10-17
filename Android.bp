@@ -115,17 +115,21 @@ cc_prebuilt_library {
         "com.android.compos",
         "com.android.virt",
     ],
-    export_shared_lib_headers: ["libopen_dice_cbor"],
     static: {
         srcs: ["lib/libopen_dice_android.a"],
+        static_libs: ["libopen_dice_cbor"],
+        export_static_lib_headers: ["libopen_dice_cbor"],
     },
     shared: {
         srcs: ["lib/libopen_dice_android.so"],
+        shared_libs: ["libopen_dice_cbor"],
+        export_shared_lib_headers: ["libopen_dice_cbor"],
     },
 }
 
 cc_prebuilt_library_static {
     name: "libopen_dice_android_baremetal",
+    static_libs: ["libopen_dice_cbor_baremetal"],
     export_static_lib_headers: ["libopen_dice_cbor_baremetal"],
     srcs: ["lib/libopen_dice_android_baremetal.a"],
 }
@@ -139,6 +143,8 @@ cc_prebuilt_library_static {
         "com.android.compos",
         "com.android.virt",
     ],
+    static_libs: ["libopen_dice_cbor_p384"],
     export_static_lib_headers: ["libopen_dice_cbor_p384"],
     srcs: ["lib/libopen_dice_android_p384.a"],
 }
+
